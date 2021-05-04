@@ -18,6 +18,7 @@ body {
   background: #fff;
   position: relative;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+  border: 10px solid red;
 }
 
 .wrapper .images {
@@ -42,6 +43,14 @@ body {
 .wrapper .slider input {
   width: 100%;
   outline: none;
+  -webkit-appearance: none;
+  background: none;
+}
+
+.slider input::-webkit-slider-thumb {
+  height: 480px;
+  width: 5px;
+  background: #fff;
   -webkit-appearance: none;
 }
 
