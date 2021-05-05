@@ -11,8 +11,8 @@ body {
   background: #efefef;
 }
 .wrapper {
-  height: 500px;
-  width: 750px;
+  height: 60vh;
+  width: 50vw;
   background: #fff;
   position: relative;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
@@ -29,15 +29,14 @@ body {
   height: 100%;
   width: 100%;
   background: url("../img/pic03.jpg") no-repeat center center fixed;
-  //   background-size: cover;
 }
 
 .wrapper .images .img-2 {
   position: absolute;
   height: 100%;
   width: 50%;
-  background: url("../img/pic02.jpg") no-repeat center center fixed;
-  filter: blur(1px);
+  background: url("../img/pic01.jpg") no-repeat center center fixed;
+  //   filter: blur(1px);
 }
 
 .wrapper .slider {
