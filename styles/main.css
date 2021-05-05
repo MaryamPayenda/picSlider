@@ -13,8 +13,8 @@ body {
 }
 
 .wrapper {
-  height: 500px;
-  width: 750px;
+  height: 60vh;
+  width: 50vw;
   background: #fff;
   position: relative;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
@@ -31,14 +31,14 @@ body {
 .wrapper .images .img-1 {
   height: 100%;
   width: 100%;
-  background: url("../img/pic02.jpg") no-repeat;
+  background: url("../img/pic03.jpg") no-repeat center center fixed;
 }
 
 .wrapper .images .img-2 {
   position: absolute;
   height: 100%;
   width: 50%;
-  background: url("../img/pic02.jpg") no-repeat fixed;
+  background: url("../img/pic01.jpg") no-repeat center center fixed;
 }
 
 .wrapper .slider {
@@ -60,7 +60,6 @@ body {
   width: 5px;
   background: none;
   -webkit-appearance: none;
-  pointer: col-resize;
 }
 
 .slider .drag {
